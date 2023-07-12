@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto; /* Add this line to center-align the button */
+  background-color: green;
+  color: whitesmoke;
+  border-radius: 10px;
+}
